@@ -216,7 +216,10 @@ console.log(artists[2].bio);
 
 artists.push(artists[8].name = "Vincent Van Gogh");
 
-console.log(artists[8].name)
+console.log(artists[8].name);
+
+
+
 
 /* Task 3: Create a function called `getArtistByIndex` that takes two arguments:
  *     (1) artists array
@@ -227,8 +230,12 @@ console.log(artists[8].name)
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
 function getArtistByIndex(array, index) {
-    /* code here */
+    
+    console.log(`The artist at index ${array[index].id} is ${array[index].name}`)
+
   }
+
+  getArtistByIndex(artists, 12);
   
   /**
 
